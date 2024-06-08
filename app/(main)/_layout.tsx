@@ -10,7 +10,7 @@ import { createDrawerNavigator } from "@react-navigation/drawer";
 import FontAwesome5 from "@expo/vector-icons/FontAwesome5";
 import Entypo from "@expo/vector-icons/Entypo";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
-import { GlobalProvider } from "./globalContext";
+import { GlobalProvider } from "../../constants/globalContext";
 import "react-native-reanimated";
 
 import CustomDrawerContent from "@/components/CustomDrawerContent";
